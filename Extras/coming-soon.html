@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mixed Coming soon</title>
+        <meta name="description" content="Mixed Coming soon page">
+        <meta name="author" content="pixel-industry">
+        <meta name="keywords" content="CSS, HTML5, clean, corporate, jQuery, retina, bootstrap, business">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/bootstrap.css"/><!-- bootstrap grid -->
+        <link rel="stylesheet" href="css/style.css"/><!-- template styles -->
+        <link rel="stylesheet" href="css/color-default.css"/><!-- default template color styles -->
+        <link rel="stylesheet" href="css/retina.css"/><!-- retina ready styles -->
+        <link rel="stylesheet" href="css/responsive.css"/><!-- responsive styles -->
+        <link rel="stylesheet" href="css/animate.css"/><!-- animation for content -->
+        <link rel="stylesheet" href="css/nivo-slider.css"/><!-- Nivo Slider styles -->
+        <link rel='stylesheet' href='owl-carousel/owl.carousel.css'/><!-- .carousels -->
+
+        <!-- Google Web fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,100,200,500,600,800,700,900' rel='stylesheet' type='text/css'><!-- Raleway font -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;.subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic' rel='stylesheet' type='text/css'><!-- Open Sans -->
+
+        <!-- Font icons -->
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/><!-- Font awesome icons -->
+        <link rel="stylesheet" href="pixons/style.css" /><!-- Social icons font - Pixons -->
+    </head>
+
+    <body id="coming-soon">
+        <!-- .header-wrapper start -->
+        <div id="header-wrapper">
+            <!-- #header.header-type-1 start -->
+            <header id="header" class="header-type-1 dark">
+                <!-- Main navigation and logo container -->
+                <div class="header-inner">
+                    <!-- .container start -->
+                    <div class="container">
+                        <!-- .main-nav start -->
+                        <div class="main-nav">
+                            <!-- .row start -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- .navbar.pi-mega start -->
+                                    <nav class="navbar navbar-default nav-left pi-mega" role="navigation">									
+
+                                        <!-- .navbar-header start -->
+                                        <div class="navbar-header">
+                                            <!-- .logo start -->
+                                            <div class="logo">
+                                                <a href="index.html"><img src="img/logo.png" alt="Mixed Professional Multipurpose Business HTML Template"></a>
+                                            </div><!-- logo end -->
+                                        </div><!-- .navbar-header end -->
+                                    </nav><!-- .navbar.pi-mega end -->
+                                </div><!-- .col-md-12 end -->
+                            </div><!-- .row end -->            
+                        </div><!-- .main-nav end -->
+                    </div><!-- .container end -->
+                </div><!-- .header-inner end -->
+            </header><!-- #header.header-type-1.dark end -->
+        </div><!-- #header-wrapper end -->
+
+        <!-- .page-content start -->
+        <div class="page-content coming-soon-container">
+            <!-- .container start -->
+            <div class="container-fluid">
+                <!-- .row start -->
+                <div class="row countdown">
+                    <div class="col-md-6 countdown-container">
+                        <div class="countdown-container-inner">
+                            <!-- .fancy-heading start -->
+                            <section class="fancy-heading center">
+                                <span class="heading-top">comming soon</span>
+                                <h1>Our Site is Getting Great New Look. <br />
+                                    Stay tuned!</h1>
+                            </section><!-- .fancy-heading end -->
+
+                            <div id="count-02" class="counter colorful"></div>     
+                        </div>
+                    </div><!-- .col-md-6 end -->
+
+                    <div class="col-md-6 subscribe-container-outter">
+                        <div class="subscribe-container">
+                            <div class="simple-heading left">
+                                <h2>want to get notified?</h2>
+                            </div>
+
+                            <form class="newsletter">
+                                <input class="email" type="email" placeholder="Your email...">
+                                <input type="submit" class="submit" value="">
+                            </form>
+
+                            <!-- #social-links start -->
+                            <ul id="social-links">
+                                <li>
+                                    <a href="https://www.facebook.com/pixel.industry.themes" class="pixons-facebook-2 pixons-background"></a>
+                                </li>
+
+                                <li>
+                                    <a href="https://dribbble.com/pixel_industry" class="pixons-dribbble pixons-background"></a>
+                                </li>
+
+                                <li>
+                                    <a href="https://twitter.com/pixel_industry" class="pixons-twitter-1 pixons-background"></a>
+                                </li>
+
+                                <li>
+                                    <a href="http://themeforest.net/user/pixel-industry/follow" class="pixons-envato pixons-background"></a>
+                                </li>
+                            </ul><!-- #social-links end -->
+                        </div><!-- .subscribe-container end -->
+                    </div>
+                </div><!-- .row end -->
+            </div><!-- .container end -->
+        </div><!-- .page-content end -->
+
+        <script src="js/jquery-2.1.1.min.js"></script><!-- jQuery library -->
+        <script src="js/bootstrap.min.js"></script><!-- .bootstrap script -->
+        <script src="js/jquery.srcipts.min.js"></script><!-- modernizr, retina, stellar for parallax -->  
+        <script src="js/jquery.tweetscroll.js"></script><!-- Tweetscroll plugin -->
+        <script src="js/county.js"></script><!-- .jQuery countdown script -->
+        <script src="js/jquery.dlmenu.min.js"></script><!-- for responsive menu -->
+        <script src="js/include.js"></script><!-- custom js functions -->
+
+        <script>
+            /* <![CDATA[ */
+            jQuery(document).ready(function ($) {
+                'use strict';
+
+                $('#count-02').county({
+                    endDateTime: new Date('2015/12/27 10:00:00'),
+                    reflection: false,
+                    animation: 'fade'
+                });
+
+                $(window).resize(function () {
+                    var cs_windowHeight = $(window).height();
+                    var cs_inner_headerHeight = $('#header').height();
+                    $('#coming-soon .page-content').height(cs_windowHeight - cs_inner_headerHeight);
+                    $('.row.countdown .col-md-6').height(cs_windowHeight - cs_inner_headerHeight);
+                    var countdown_inner_height = $('.countdown-container-inner').height();
+                    $('.countdown-container-inner').css('margin-top', -(countdown_inner_height / 2));
+                    var subscribe_container_height = $('.subscribe-container').height();
+                    $('.subscribe-container').css('margin-top', -(subscribe_container_height/2));
+                }).resize();
+            });
+
+            /* ]]> */
+        </script>
+    </body>
+</html>
