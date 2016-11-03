@@ -6,19 +6,43 @@
 <div class="tp-banner-container fullwidthbanner">
     <div id="rev-slider" class="tp-banner">
         <ul>
-            <!-- <li data-transition="slidehorizontal" data-slotamount="1" data-masterspeed="1000" data-thumb="img/v3-small.png" data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off" data-title="Villaggio Grille">
-                <img src="img/v3.png" alt="video_woman_cover3" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                <div class="tp-caption tp-fade fadeout fullscreenvideo" data-x="0" data-y="0" data-speed="1000" data-start="1100" data-easing="Power4.easeOut" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1500" data-endeasing="Power4.easeIn" data-autoplay="true" data-autoplayonlyfirsttime="false" data-nextslideatend="true" data-volume="mute" data-forceCover="1" data-aspectratio="16:9" data-forcerewind="on" style="z-index: 2;">
-                    <video class="" preload="auto" poster='img/v3.png'>
-                        <source src='V3.mp4' type='video/mp4' />
-                    </video>
+
+            <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-thumb="img/acoustic.jpg" data-title="Villaggio Grille">
+                <img src="img/acoustic.jpg" alt="slidebg3" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                <div class="tp-caption mobile-hide"
+                    data-x="115"
+                    data-y="100"
+                    data-speed="500"
+                    data-start="200"
+                    data-easing="Back.easeOut"
+                    data-endspeed="500"
+                >
+                    <h2>
+                        Join us during the<br> Frank Brown International Songwriter's Festival<br>
+                        <span class="color-text">November 3 - 13</span>
+                    </h2>
+                    <a class="songwriter-link1" href="http://frankbrownsongwriters.com/wp/venue/villagio-grille/" target="_blank">Entertainment Schedule</a>
+                    <a class="songwriter-link2" href="http://www.opentable.com/villaggio-grille-at-the-wharf" target="_blank">Make a Reservation</a>
                 </div>
-            </li> -->
 
+                <div class="tp-caption mobile-show"
+                    data-x="65"
+                    data-y="100"
+                    data-speed="500"
+                    data-start="200"
+                    data-easing="Back.easeOut"
+                    data-endspeed="500"
+                >
+                    <h2>
+                        Join us during the<br> Frank Brown International <br>Songwriter's Festival<br>
+                        <span class="color-text">November 3 - 13</span>
+                    </h2>
+                    <a class="songwriter-link1" href="http://frankbrownsongwriters.com/wp/venue/villagio-grille/" target="_blank">Entertainment Schedule</a>
+                    <a class="songwriter-link2" href="http://www.opentable.com/villaggio-grille-at-the-wharf" target="_blank">Make a Reservation</a>
+                </div>
 
-        <!--     <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-thumb="img/sm-fathersday.jpg" data-title="Upcoming Wine Dinner">
-                <a href="#"><img src="img/fathersday.jpg" alt="slidebg3" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat"></a>
-            </li> -->
+            </li>
 
             <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-thumb="img/sm-togo.jpg" data-title="Villaggio Togo">
                 <img src="img/togo.jpg" alt="slidebg3" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
@@ -31,7 +55,7 @@
             
 
             <!-- SLIDE THREE-ONE -->
-            <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-thumb="img/wineglass-sm.jpg" data-title="Wine on Draft">
+           <!--  <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-thumb="img/wineglass-sm.jpg" data-title="Wine on Draft">
                 <a><img src="img/wineglass.jpg" alt="slidebg3" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat"></a>
                  <div class="tp-caption tp-big-heading mobile-hide"
                      data-x="115"
@@ -54,17 +78,6 @@
                      >
                        <h4 class="slide-head">We Are Now Serving Wine on Draft!</h4>
                     </div>
-            </li>
-             
-
-            <!-- SLIDE THREE -->
-           <!--  <li data-transition="slidehorizontal" data-slotamount="1" data-masterspeed="1000" data-thumb="img/v4-small.png" data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off" data-title="Italian Fusion Cuisine">
-                <img src="img/v4.jpg" alt="video_woman_cover3" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                <div class="tp-caption tp-fade fadeout fullscreenvideo" data-x="0" data-y="0" data-speed="1000" data-start="1100" data-easing="Power4.easeOut" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1500" data-endeasing="Power4.easeIn" data-autoplay="true" data-autoplayonlyfirsttime="false" data-nextslideatend="true" data-volume="mute" data-forceCover="1" data-aspectratio="16:9" data-forcerewind="on" style="z-index: 2;">
-                    <video class="" preload="auto" poster='img/v4.jpg'>
-                        <source src='V4.mp4' type='video/mp4' />
-                    </video>
-                </div>
             </li> -->
         </ul>
     </div>
@@ -112,7 +125,7 @@
                         </p>
                         <br>
                         <center>
-                            <a href="menus.php" class="btn btn-small yellow">
+                            <a href="lunch-menu.php" class="btn btn-small yellow">
                                 <span>View Menus</span>
                             </a>
                         </center>

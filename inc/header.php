@@ -51,15 +51,10 @@
 
 <body class="pattern-2">
     <div id="page-wrapper">
-        <!-- .header-wrapper start -->
         <div id="header-wrapper">
-            <!-- #header.header-type-1 start -->
             <header id="header" class="header-type-1 dark">
-                <!-- #top-bar-wrapper start -->
                 <div id="top-bar-wrapper" class="clearfix">
-                    <!-- #top-bar start -->
                     <div id="top-bar" class="clearfix">
-                        <!-- #quick-links start -->
                         <div class="col-md-4">
                             <ul id="quick-links">
                                 <li>
@@ -67,15 +62,12 @@
                                     <a href="tel:+12512246510">(251)-224-6510</a>
                                 </li>
                             </ul>
-                            <!-- #quick-links end -->
                         </div>
                         <div class="col-md-4">
-                            <!-- <center><span>Open Daily at 11am</span></center> -->
                             <center><span><a class="tel" href="tel: +12515976651">Catering: 251.597.6651</a></span></center>
                             <br class="mobile-show">
                         </div>
                         <div class="col-md-4">
-                            <!-- #social-links start -->
                             <ul id="social-links">
                                 <li>
                                     <a href="https://www.facebook.com/pages/Villaggio-Grille-at-the-Wharf/268094240121" target="_blank" class="pixons-facebook-2 pixons-color"></a>
@@ -155,9 +147,9 @@
                                                 <li class="dropdown">
                                                     <a href="#" data-toggle="dropdown" class="dropdown-toggle">Events</a>
                                                     <ul class="dropdown-menu">
-                                                        <li><a href="pairings.php">Pairings</a></li>
+                                                        <!-- <li><a href="pairings.php">Pairings</a></li> -->
+                                                        <li><a href="events.php">Special Events</a></li>
                                                         <li><a href="happy-hour.php">Happy Hour</a></li>
-                                                        <!-- <li><a href="easter.php">Easter</a></li> -->
                                                     </ul>
                                                 </li>
                                                 <li>
@@ -206,19 +198,17 @@
                                                         </ul>
                                                         <!-- .dl-submenu end -->
                                                     </li>
-                                                    <!-- Features li end -->
                                                     <li>
                                                         <a href="wine-list.php">Wine List</a>
                                                     </li>
                                                     <li>
                                                         <a href="#">Events</a>
                                                         <ul class="dl-submenu">
-                                                            <li><a href="pairings.php">Pairings</a></li>
+                                                            <!-- <li><a href="pairings.php">Pairings</a></li> -->
+                                                            <li><a href="events.php">Special Events</a></li>
                                                             <li><a href="happy-hour.php">Happy Hour</a></li>
-                                                            <!-- <li><a href="easter.php">Easter</a></li> -->
                                                         </ul>
                                                     </li>
-                                                    <!-- Portfolio li end -->
                                                     <li>
                                                         <a href="catering.php">Catering</a>
                                                     </li>
@@ -234,36 +224,14 @@
                                                             <li><a target="_blank" href="https://gifts.opentable.com/Villaggio-Grille-at-the-Wharf?ref=1">Gift Cards</a></li>
                                                         </ul>
                                                     </li>
-                                                    <!-- <li>
-                                                        <a href="about.php">About Us</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="contact.php">Contact Us</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="http://www.opentable.com/villaggio-grille-at-the-wharf-reservations-orange-beach?restref=91339" target="_blank">Book a Table</a>
-                                                    </li> -->
                                                 </ul>
-                                                <!-- .dl-menu end -->
                                             </div>
-                                            <!-- (Responsive menu) #dl-menu end -->
-                                            <!-- #search-box start -->
-                                            <!-- #search-box end -->
                                         </div>
-                                        <!-- .navbar.navbar-collapse end -->
                                     </nav>
-                                    <!-- .navbar.pi-mega end -->
                                 </div>
-                                <!-- .col-md-12 end -->
                             </div>
-                            <!-- .row end -->
                         </div>
-                        <!-- .main-nav end -->
                     </div>
-                    <!-- .container end -->
                 </div>
-                <!-- .header-inner end -->
             </header>
-            <!-- #header.header-type-1.dark end -->
         </div>
-        <!-- #header-wrapper end -->

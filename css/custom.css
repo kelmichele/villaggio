@@ -33,6 +33,14 @@
 .extra-padding { padding: 35px; }
 .border-t { border-top: 2px solid #dfdfdf; }
 
+p.red,
+span.red,
+strong.red,
+h4.red,
+h3.red,
+h2.red,
+h1.red {color: #622622;}
+
 .l-2 { line-height: 25px; }
 .no-margin {
   margin: 0 !important;
@@ -75,9 +83,51 @@ h2.slide-head span {
 	font-weight: bold;
 }
 
+.tp-big-heading::after {display: none;}
 
+.tp-caption h2 { 
+	color: #fff;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.tp-caption h2 span.color-text { color: #f1ba11; }
+
+.tp-caption a {
+	display: inline-block;
+	background-color: #f1ba11;
+	color: #fff;
+	font-family: 'Raleway', Arial, sans-serif;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+.tp-caption a.songwriter-link2 {
+	margin-left: 20px;
+}
+.tp-caption a:hover {
+	color: #696969;
+}
 
 @media (max-width: 768px) {
+
+	#dl-menu {
+		float: none;
+		margin-left: auto;
+		margin-right:auto;
+	}
+
+
+
+	.tp-caption  { position: relative; }
+	.tp-caption h2 { font-size:20px; line-height: 25px;}
+	.tp-caption a {
+		text-align: center;
+		font-size: 18px;
+		font-weight: bold;
+	}
 
 	h4.slide-head {
 		color: #fff;
@@ -87,7 +137,15 @@ h2.slide-head span {
 		text-decoration: none;
 		background-color: #000;
 	}
+}
 
+@media (max-width: 640px) {
+	.tp-caption h2 { font-size:16px; line-height: 20px;}
+	.tp-caption a {
+		display: block;
+		font-size: 15px;
+	}
+	.tp-caption a.songwriter-link2 {margin-left: 0; margin-top:15px;}
 }
 
 .pt-bkg-image-v {
@@ -227,10 +285,10 @@ ul.items li {
 	padding-top:20px;
 }
 
-#happyhour-page.page-content h3 { font-weight: bold; color: #fcc820; font-size: 20px; }
+#happyhour-page.page-content h3 { font-weight: bold; color: #fcc820; font-size: 20px; margin-bottom: 5px; }
 #happyhour-page.page-content h2 {  color: #622622; }
 #happyhour-page.page-content p { font-size: 16px; color: #31393f; }
-#happyhour-page.page-content .special { width: 100%; float: left; margin-bottom:10px; }
+#happyhour-page.page-content .special { width: 100%; float: left; margin-bottom:10px; text-align: center; }
 #happyhour-page.page-content h4 { font-size: 20px; text-align: center; }
 #happyhour-page.page-content h4 span { font-size: 16px; color: #fcc820; }
 
@@ -238,7 +296,65 @@ ul.items li {
 
 
 
+/**********************************************************/
+/************************EVENTS*************************/
+/**********************************************************/
 
+.events-listing-page {
+	width:100%;
+	float: left;
+	padding-bottom: 35px;
+}
+
+.events-listing-page .page-title-4 {padding: 0;}
+
+.events-listing-page #page-title {
+	width:100%;
+	float: left;
+	height:200px;
+	background-image: url('../img/wine-din.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.events-listing-page .overlay {
+	width: 100%;
+	height: 100%;
+	float: left;
+	background: rgba(0, 0, 0, .65);
+	padding: 30px 0;
+}
+
+
+.events-listing-page .page-title-4 h1, .events-listing-page .page-title-4 h3 { 
+	color: #fff; 
+	font-weight: 700; 
+	font-family: 'Raleway', Arial, sans-serif; 
+	text-shadow: 0px 2px 1px #000;
+}
+
+.events-listing-page #event-sec {
+	width:100%;
+	float: left;
+	padding-top: 30px;
+}
+
+.events-listing-page #event-sec .event-sec-box{
+	width:100%;
+	float: left;
+	text-align: center;
+	padding: 20px;
+	background-color: #f5f4f4;
+}
+.events-listing-page #event-sec .event-sec-box hr {
+	margin-top:5px;
+	margin-bottom:25px;
+	border-top: 1px solid #dfdfdf;
+}
+.events-listing-page #event-sec .event-sec-box h6 {font-family: 'Raleway', Arial, sans-serif;}
+.events-listing-page #event-sec .event-sec-box h6 span {
+	color: #622622;
+	font-weight: 700; 
+}
 
 
 
