@@ -9060,13 +9060,17 @@ ul.aside_widgets {
 }
 /*# sourceMappingURL=style.css.map */
 
-.widget .signup {
+footer .signup {
     border: 2px solid #fcc820;
     background-color: #fff;
     margin-top: 10px;
-    padding-left: 35px;
+    text-align: center;
+    /*padding-left: 35px;*/
 }
-.widget .signup label {
+footer .signup label {
     color: #fcc820;
+    text-align: center;
 }
-.widget #mc_embed_signup .button { background-color: #fcc820; }
+/*footer #mc_embed_signup_scroll { padding-left: 15%;}*/
+
+footer #mc_embed_signup .button { background-color: #fcc820;}

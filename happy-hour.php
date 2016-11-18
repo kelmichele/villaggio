@@ -3,17 +3,19 @@ include( 'inc/header.php'); ?>
 
 <div id="happyhour-page" class="page-content">
     <div class="container">
-        <div class="food-menus">
-            <div class="row">
-                <div class="col-md-12">
-                    <section class="fancy-heading center">
-                        <h1 style="font-weight:bold">Happy Hour</h1>
-                        <h6>Don't forget to ask about <a href="drink-menu.php">Penny Cocktails!</a></h6>
-                        <!-- <h6>Daily 3-6 p.m.</h6> -->
-                    </section>
-                </div>
+        <div class="row">
+            <div class="col-md-12">
+                <section class="fancy-heading center">
+                    <h1 style="font-weight:bold">Happy Hour</h1>
+                    <h6>Don't forget to ask about <a href="drink-menu.php">Penny Cocktails!</a></h6>
+                    <!-- <h6>Daily 3-6 p.m.</h6> -->
+                </section>
             </div>
+        </div>
+    </div>
 
+    <div class="food-menus">
+        <div class="container">
             <div class="row text-center">
                 <div class="col-md-6 col-xs-12">
                     <div class="fancy-heading center"><h2>Drink Specials</h2></div>
@@ -62,7 +64,6 @@ include( 'inc/header.php'); ?>
                         <span>with Jalapeño &amp; Sour Cream</span></h4>
                 </div>
             </div>
-
         </div>
     </div>
 </div>

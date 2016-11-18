@@ -6,8 +6,15 @@
 <div class="tp-banner-container fullwidthbanner">
     <div id="rev-slider" class="tp-banner">
         <ul>
+            <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-thumb="img/v-card-sm.jpg" data-title="Villaggio Togo">
+                <img src="img/v-card.jpg" alt="slidebg3" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+            </li>
 
-            <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-thumb="img/acoustic.jpg" data-title="Villaggio Grille">
+            <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-thumb="img/bike-sm.jpg" data-title="Villaggio Togo">
+                <a href="special-event1.php"><img src="img/bike.jpg" alt="slidebg3" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat"></a>
+            </li>
+
+            <!-- <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-thumb="img/acoustic.jpg" data-title="Villaggio Grille">
                 <img src="img/acoustic.jpg" alt="slidebg3" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                 <div class="tp-caption mobile-hide"
@@ -42,7 +49,7 @@
                     <a class="songwriter-link2" href="http://www.opentable.com/villaggio-grille-at-the-wharf" target="_blank">Make a Reservation</a>
                 </div>
 
-            </li>
+            </li> -->
 
             <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-thumb="img/sm-togo.jpg" data-title="Villaggio Togo">
                 <img src="img/togo.jpg" alt="slidebg3" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
